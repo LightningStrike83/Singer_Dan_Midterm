@@ -4,6 +4,15 @@
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 .boxcolour {
     background-color: #AFAFAF;
 }
@@ -55,6 +64,8 @@ section, header {
     width: 288px;
     margin-top: 55px;
     grid-column: 1/3;
+    display: flex;
+    justify-content: center;
 }
 
 #main_nav_1 {
@@ -62,6 +73,25 @@ section, header {
     width: 440px;
     margin-top: 55px;
     grid-column: 3/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_nav_1 ul li, #main_nav_2 ul li {
+    font-family: 'Showcard Gothic';
+    font-size: 16px;
+    border-right: 1px solid #707070;
+    padding-right: 5px;
+    display: inline;
+}
+
+#main_nav_2 ul li {
+    padding-right: 53.5px;
+}
+
+#main_nav_1 ul li:last-of-type, #main_nav_2 ul li:last-of-type {
+    border-right: none;
 }
 
 #main_nav_2 {
@@ -69,6 +99,18 @@ section, header {
     width: 288px;
     margin-top: 55px;
     grid-column: 7/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_nav_2 ul li:last-of-type {
+    padding-left: 53.5px;
+}
+
+.logo-desktop {
+    width: 163.85px;
+    height: 110.64px;
 }
 
 /* 4. Visual Appeal */
