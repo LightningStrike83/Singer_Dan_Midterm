@@ -1,0 +1,269 @@
+/* 1. General Styles */
+
+.hidden {
+    display: none;
+}
+
+.boxcolour {
+    background-color: #AFAFAF;
+}
+
+.boxcolour2 {
+    background-color: #7B7B7B;
+}
+
+.boxcolour3 {
+    background-color: #3B3B3B;
+}
+
+section, header {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* 2. Container and Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 98px);
+    grid-column-gap: 12px;
+    grid-auto-rows: 0px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 98px);
+    grid-column-gap: 12px;
+    grid-auto-rows: 0px;
+}
+
+#container {
+    width: 428px;
+    margin: 0 auto;
+    background-color: #242424;
+}
+
+/* 3. Header */
+
+#main_header {
+    display: grid;
+    height: 220px;
+    width: 428px;
+}
+
+#header_logo {
+    height: 110px;
+    width: 207px;
+    margin-top: 55px;
+    grid-column: 1/3;
+}
+
+#hamburger {
+    height: 110px;
+    width: 207px;
+    grid-column: 3/-1;
+    margin-top: 55px;
+}
+
+.hamburger_menu {
+    display: block;
+    height: 5px;
+    width: 110px;
+    margin-top: 23px;
+    margin-left: 49px;
+    background-color: #3B3B3B;
+}
+
+.hamburger_menu:first-of-type {
+    margin-top: 27px;
+}
+
+/* 4. Visual Appeal */
+
+#visual_appeal {
+    height: 527px;
+    width: 428px;
+    grid-column: 1/-1;
+}
+
+/* 5. Flavours */
+
+#flavours {
+    height: 542px;
+    width: 428px;
+    grid-column: 1/-1;
+}
+
+#flavours_slider {
+    height: 260px;
+    width: 428px;
+    margin-top: 33px;
+    grid-column: 1/-1;
+}
+
+#flavours_text {
+    height: 185px;
+    width: 428px;
+    margin-top: 325px;
+    grid-column: 1/-1;
+}
+
+/* 6. Collab */
+
+#collab {
+    height: 525px;
+    width: 428px;
+}
+
+#new_flavour {
+    height: 300px;
+    width: 208px;
+    grid-column: 1/3;
+    margin-top: 15px;
+}
+
+#mascot {
+    height: 300px;
+    width: 208px;
+    grid-column: 3/-1;
+    margin-top: 15px;
+}
+
+#collab_info {
+    height: 180px;
+    width: 428px;
+    margin-top: 330px;
+}
+
+#information {
+    height: 542px;
+    width: 428px;
+    grid-column: 1/-1;
+}
+
+#slider_indicator {
+    grid-column: 2/4;
+}
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 496px;
+    margin-right: 10px;
+}
+
+.circle:first-of-type {
+    margin-left: 55px;
+}
+
+/* 8. Updates */
+
+#updates {
+    height: 1242px;
+    width: 428px;
+}
+
+#update2 {
+    margin-top: 421px;
+}
+
+#update3 {
+    margin-top: 842px;
+}
+
+.updatebox {
+    height: 400px;
+    width: 208px;
+    grid-column: 2/4;
+    display: inline-block;
+    margin-bottom: 20px;
+    grid-column: 2/4;
+}
+
+.updateimage {
+    height: 200px;
+    width: 208px;
+}
+
+/* 9. Footer */
+
+#main_footer {
+    height: 769px;
+    width: 428px;
+    grid-column: 1/-1;
+}
+
+#logo_footer  {
+    height: 110px;
+    width: 207px;
+    grid-column: 2/4;
+    margin-top: 20px;
+}
+
+#social_media_icons {
+    height: 90px;
+    width: 428px;
+    grid-column: 1/-1;
+    margin-top: 150px;
+}
+
+#footer_nav {
+    height: 200px;
+    width: 428px;
+    grid-column: 1/-1;
+    margin-top: 260px;
+}
+
+#contact_form {
+    height: 269px;
+    width: 428px;
+    grid-column: 1/-1;
+    margin-top: 480px;
+}
+
+#name {
+    height: 30px;
+    width: 208px;
+    grid-column: 2/4;
+    margin-top: 14px;
+}
+
+#email {
+    height: 30px;
+    width: 208px;
+    grid-column: 2/4;
+    margin-top: 64px;
+}
+
+#body {
+    height: 100px;
+    width: 208px;
+    grid-column: 2/4;
+    margin-top: 114px;
+}
+
+#submit {
+    height: 30px;
+    width: 60px;
+    margin-top: 229px;
+    margin-left: 74px;
+    grid-column: 2/4;
+}
+
+.smicons {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10.8px;
+}
+
+.smicons:first-of-type {
+    margin-left: 27px;
+}
+
+.smicons:last-of-type {
+    margin-right: 27px;
+}
