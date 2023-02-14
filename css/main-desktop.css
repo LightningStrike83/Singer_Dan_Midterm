@@ -48,7 +48,7 @@ section, header {
 #container {
     width: 1200px;
     margin: 0 auto;
-    background-color: #242424;
+    background-image: url(../images/starry_background.jpg);
 }
 
 /* 3. Header */
@@ -83,6 +83,7 @@ section, header {
     font-size: 16px;
     border-right: 1px solid #707070;
     padding-right: 5px;
+    padding-left: 5px;
     display: inline;
 }
 
@@ -106,11 +107,21 @@ section, header {
 
 #main_nav_2 ul li:last-of-type {
     padding-left: 53.5px;
+    padding-right: 0;
+}
+
+#main_nav_1 ul li:hover, #main_nav_2 ul li:hover {
+    border-bottom: 3px solid black;
+    color: white;
 }
 
 .logo-desktop {
     width: 163.85px;
     height: 110.64px;
+}
+
+#Layer_1:hover .cls-1-logo {
+    fill: #f4f4f5;
 }
 
 /* 4. Visual Appeal */
@@ -166,6 +177,14 @@ section, header {
     height: 600px;
     width: 440px;
     grid-column: 6/-1;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+#red_crewmate {
+    height: 250px;
+    transform: scaleX(-1);
 }
 
 /* 7. Information */
@@ -237,12 +256,32 @@ section, header {
     width: 288px;
     grid-column: 4/6;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 #footer_nav {
     height: 277px;
     width: 440px;
     grid-column: 1/4;
+}
+
+#desktop-bottom-nav li {
+    font-family: 'Showcard Gothic';
+    font-size: 16px;
+    padding-bottom: 13.5px;
+    border-bottom: black 1px solid;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#desktop-bottom-nav li:last-of-type {
+    border-bottom: none;
+}
+
+#desktop-bottom-nav li:hover {
+    color: white;
 }
 
 #social_media_icons {
@@ -306,4 +345,8 @@ section, header {
 
 .smicons:last-of-type {
     margin-right: 17px;
+}
+
+#facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
+    fill: black;
 }
