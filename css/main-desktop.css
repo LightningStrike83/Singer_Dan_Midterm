@@ -9,6 +9,13 @@ a {
     color: black;
 }
 
+p {
+    font-size: 30px;
+    font-family: 'Itim', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 a:visited {
     color: black;
 }
@@ -23,6 +30,10 @@ a:visited {
 
 .boxcolour3 {
     background-color: #3B3B3B;
+}
+
+.topbottom {
+    background-image: radial-gradient(#F90EFC 30%, #8A28C8);
 }
 
 section, header {
@@ -55,14 +66,16 @@ section, header {
 
 #main_header {
     display: grid;
-    height: 220px;
+    height: 150px;
     width: 1200px;
+    position: fixed;
+    z-index: 1;
 }
 
 #header_logo {
     height: 110px;
     width: 288px;
-    margin-top: 55px;
+    margin-top: 20px;
     grid-column: 1/3;
     display: flex;
     justify-content: center;
@@ -71,7 +84,7 @@ section, header {
 #main_nav_1 {
     height: 110px;
     width: 440px;
-    margin-top: 55px;
+    margin-top: 20px;
     grid-column: 3/6;
     display: flex;
     justify-content: center;
@@ -81,7 +94,7 @@ section, header {
 #main_nav_1 ul li, #main_nav_2 ul li {
     font-family: 'Showcard Gothic';
     font-size: 16px;
-    border-right: 1px solid #707070;
+    border-right: 2px solid #707070;
     padding-right: 5px;
     padding-left: 5px;
     display: inline;
@@ -98,7 +111,7 @@ section, header {
 #main_nav_2 {
     height: 110px;
     width: 288px;
-    margin-top: 55px;
+    margin-top: 20px;
     grid-column: 7/-1;
     display: flex;
     justify-content: center;
@@ -120,7 +133,7 @@ section, header {
     height: 110.64px;
 }
 
-#Layer_1:hover .cls-1-logo {
+#top_logo:hover .cls-1-logo, #bottom_logo:hover .cls-1-bottom {
     fill: #f4f4f5;
 }
 
@@ -151,6 +164,21 @@ section, header {
     width: 440px;
     grid-column: 6/-1;
     margin-top: 95px;
+    display: flex;
+    align-items: center;
+}
+
+#flavours_text p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#flavours_text p:first-of-type, #flavours_text p:last-of-type {
+    text-align: center;
+}
+
+#flavours_text p:first-of-type {
+    text-shadow: #FFB62A 2px 2px;
 }
 
 /* 6. Collab */
@@ -171,6 +199,25 @@ section, header {
     height: 600px;
     width: 440px;
     grid-column: 3/6;
+    text-align: left;
+}
+
+#collab_info p {
+    margin-top: 20px;
+}
+
+#collab_info p:first-of-type {
+    text-align: center;
+    text-shadow: #FF0705 2px 2px;
+}
+
+#imposter_flavour {
+    color: #FF0705;
+    text-shadow: black 2px 2px;
+}
+
+#innersloth:hover {
+    color: white;
 }
 
 #mascot {
@@ -238,6 +285,12 @@ section, header {
     grid-column: 7/-1;
 }
 
+#update_1 p:first-of-type, #update_2 p:first-of-type, #update_3 p:first-of-type {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
 .updateimage {
     height: 300px;
     width: 288px;
@@ -256,17 +309,17 @@ section, header {
     width: 288px;
     grid-column: 4/6;
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 #footer_nav {
     height: 277px;
     width: 440px;
     grid-column: 1/4;
+    display: flex;
+    align-items: center;
 }
 
-#desktop-bottom-nav li {
+#desktop-bottom-nav-1 li, #desktop-bottom-nav-2 li {
     font-family: 'Showcard Gothic';
     font-size: 16px;
     padding-bottom: 13.5px;
@@ -276,11 +329,11 @@ section, header {
     width: 150px;
 }
 
-#desktop-bottom-nav li:last-of-type {
+#desktop-bottom-nav-1 li:last-of-type, #desktop-bottom-nav-2 li:last-of-type {
     border-bottom: none;
 }
 
-#desktop-bottom-nav li:hover {
+#desktop-bottom-nav-1:hover li, #desktop-bottom-nav-2:hover li {
     color: white;
 }
 
