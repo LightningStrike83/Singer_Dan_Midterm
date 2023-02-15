@@ -244,6 +244,23 @@ section, header {
     grid-column: 1/-1;
 }
 
+#collectibles_text {
+    grid-column: 3/7;
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    text-shadow: black 2px 2px;
+}
+
+#collectibles_text span {
+    color: white;
+}
+
+#collectibles_text span:hover {
+    color: black;
+    text-shadow: white 2px 2px;
+}
+
 #slider_indicator {
     grid-column: 4/6;
 }
@@ -256,6 +273,7 @@ section, header {
     display: inline-block;
     margin-top: 564px;
     margin-right: 10px;
+    z-index: 1;
 }
 
 .circle:first-of-type {
@@ -404,4 +422,49 @@ section, header {
 
 #facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
     fill: black;
+}
+
+#blast_off {
+    grid-column: 4/6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#blast_off p {
+    font-size: 16px;
+}
+
+#company_credit {
+    grid-column: 4/6;
+    text-align: center;
+}
+
+#company_credit p {
+    font-size: 24px;
+    font-family: 'Showcard Gothic', Arial, sans-serif;
+}
+
+/* 10. Error 404 */
+
+#error404 {
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 990px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/Orbula_Placeholder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#error404 p {
+    color: #F90EFC;
+    margin-bottom: 20px;
+    text-shadow: #8A28C8 2px 2px;
+}
+
+#error404 p:last-of-type {
+    margin-bottom: 0px;
 }
