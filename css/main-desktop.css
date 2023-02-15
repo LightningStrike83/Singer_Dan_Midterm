@@ -231,9 +231,14 @@ section, header {
     align-items: end;
 }
 
+#orbula_png {
+    height: 600px;
+}
+
 #red_crewmate {
     height: 250px;
     transform: scaleX(-1);
+    position: absolute;
 }
 
 /* 7. Information */
@@ -244,12 +249,20 @@ section, header {
     grid-column: 1/-1;
 }
 
-#collectibles_text {
+#planets {
+    flex-wrap: wrap;
+}
+
+#information_text {
     grid-column: 3/7;
+    margin-top: 250px;
+}
+
+#collectibles_text {
     text-align: center;
-    margin-top: 300px;
     color: white;
     text-shadow: black 2px 2px;
+    position: relative;
 }
 
 #collectibles_text span {
@@ -261,23 +274,34 @@ section, header {
     text-shadow: white 2px 2px;
 }
 
+#information img {
+    position: absolute;
+}
+
 #slider_indicator {
     grid-column: 4/6;
+    display: flex;
+    align-content: flex-end;
+}
+
+#slider_indicator a {
+    padding: 0;
+    margin: 0;
+}
+
+#slider_indicator a:first-of-type {
+    margin-left: 95px;
 }
 
 .circle {
     height: 26px;
     width: 26px;
     border-radius: 20px;
-    grid-column: 4/6;
     display: inline-block;
-    margin-top: 564px;
     margin-right: 10px;
-    z-index: 1;
-}
-
-.circle:first-of-type {
-    margin-left: 95px;
+    position: relative;
+    margin-top: 220px;
+    margin-bottom: 10px;
 }
 
 /* 8. Updates */
