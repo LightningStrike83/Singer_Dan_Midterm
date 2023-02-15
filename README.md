@@ -10,7 +10,7 @@ Singer, Dan
 
 02/12/22- Repo created, initial files added  
 02/13/22- Worked on desktop header and footer, added icons and other assets
-02/14/22- Styled the desktop webpage, added content to the body
+02/14/22- Styled the desktop webpage, added content to the body, created the 404 pages
 
 ## Credits  
 

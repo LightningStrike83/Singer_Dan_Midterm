@@ -123,7 +123,7 @@ section, header {
     padding-right: 0;
 }
 
-#main_nav_1 ul li:hover, #main_nav_2 ul li:hover {
+#main_nav_1 ul li a:hover, #main_nav_2 ul li a:hover {
     border-bottom: 3px solid black;
     color: white;
 }
@@ -157,7 +157,7 @@ section, header {
     height: 600px;
     width: 592px;
     grid-column: 1/5;
-}
+ }
 
 #flavours_text {
     height: 410px;
@@ -166,6 +166,7 @@ section, header {
     margin-top: 95px;
     display: flex;
     align-items: center;
+    background-image: radial-gradient(#F90EFC 30%, #8A28C8);
 }
 
 #flavours_text p {
@@ -200,6 +201,7 @@ section, header {
     width: 440px;
     grid-column: 3/6;
     text-align: left;
+    background-image: radial-gradient(#F90EFC 30%, #8A28C8);
 }
 
 #collab_info p {
@@ -309,6 +311,8 @@ section, header {
     width: 288px;
     grid-column: 4/6;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 #footer_nav {
@@ -317,6 +321,7 @@ section, header {
     grid-column: 1/4;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 #desktop-bottom-nav-1 li, #desktop-bottom-nav-2 li {
@@ -329,11 +334,16 @@ section, header {
     width: 150px;
 }
 
+#desktop-bottom-nav-1 {
+    padding-right: 25px;
+    border-right: 1px solid black;
+}
+
 #desktop-bottom-nav-1 li:last-of-type, #desktop-bottom-nav-2 li:last-of-type {
     border-bottom: none;
 }
 
-#desktop-bottom-nav-1:hover li, #desktop-bottom-nav-2:hover li {
+#desktop-bottom-nav-1 li a:hover, #desktop-bottom-nav-2 li a:hover {
     color: white;
 }
 
@@ -351,38 +361,30 @@ section, header {
     margin-top: 53px;
 }
 
-#contact_form {
+#newsletter {
     height: 277px;
     width: 440px;
     grid-column: 6/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#name {
+#newsletter p {
+    text-align: center;
+}
+
+#email-news {
     margin-top: 20px;
     height: 40px;
-    width: 288px;
-    grid-column: 2/-1;
-}
-
-#email {
-    margin-top: 79px;
-    height: 40px;
-    width: 288px;
-    grid-column: 2/-1;
+    width: 335px;
 }
 
 #submit {
+    margin-top: 20px;
     height: 35px;
     width: 70px;
-    margin-left: 66px;
-    margin-top: 233px;
-}
-
-#body {
-    height: 130px;
-    width: 288px;
-    grid-column: 2/-1;
-    margin-top: 138px;
 }
 
 .smicons {
