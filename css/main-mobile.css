@@ -56,6 +56,16 @@ section, header {
     width: 207px;
     margin-top: 55px;
     grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+}
+
+#top_logo {
+    height: 110px;
+}
+
+#top_logo:hover .cls-1-logo, #bottom_logo:hover .cls-1-bottom {
+    fill: #f4f4f5;
 }
 
 #hamburger {
@@ -200,6 +210,12 @@ section, header {
     width: 207px;
     grid-column: 2/4;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_logo {
+    height: 110px;
 }
 
 #social_media_icons {
