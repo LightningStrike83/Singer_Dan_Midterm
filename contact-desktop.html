@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="grid">
         <h1 class="hidden">Orbitz!</h1>
         <header id="main_header" class="grid topbottom">
             <h2 class="hidden">Main Header</h2>
@@ -56,9 +56,25 @@
             </nav>
         </header>
 
-        <section id="contact-form">
-          
-        </section>
+        <section id="contact_form">
+          <h2 class="hidden">Contact Form</h2>
+          <p>Got an idea? A q? Orbitz and Orbula would love to hear it!</p>
+          <form id="inquiry" method="post" action="404-desktop.html">
+              <label for="preferred_name"></label>
+                 <input id="preferred_name" name="preferred_name" type="text" placeholder="Preferred Name"><br><br>
+
+              <label for="email"></label>
+                  <input id="email" name="email" type="text" placeholder="Email"><br><br>
+
+              <label for="subject"></label>
+                  <input id="subject" name="subject" type="text" placeholder="Subject"><br><br>
+
+              <label for="body"></label><br>
+                  <textarea id="comments" name= "comments" placeholder="Write Your Message Here"></textarea> <br><br>
+
+              <input type="submit" value="Send" id="send">
+          </form>
+      </section>
 
         <footer id="main_footer" class="grid topbottom">
           <h2 class="hidden">Main Footer</h2>
@@ -249,11 +265,13 @@
               </div>
           </div>
 
-          <div id="newsletter" class="grid2">
+          <div id="newsletter">
               <h3 class="hidden">Newsletter</h3>
-              <p><u>Sign Up To Stay Up To Date With Orbitz!</u></p>
-              <input id="email-news" name="email-news" type="text" placeholder="Email">
-              <input type="submit" value="Submit" id="submit">
+              <p>Sign Up To Stay Up To Date With Orbitz!</p>
+              <form id="newsletter_signup" method="post" action="404-mobile.html">
+                <input id="email-news" name="email-news" type="text" placeholder="Email">
+                <input type="submit" value="Submit" id="submit">
+            </form>
           </div>
 
           <div id="blast_off">
