@@ -152,6 +152,7 @@ section, header {
     height: 600px;
     width: 1200px;
     grid-column: 1/-1;
+    background-color: #f8f8f8;
 }
 
 #flavours_slider {
@@ -160,6 +161,24 @@ section, header {
     grid-column: 1/5;
  }
 
+#flavours_slider img {
+    position: absolute;
+}
+
+#arrows {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 50%;
+}
+
+#arrows p {
+    font-size: 60px;
+    cursor: pointer;
+}
+ 
 #flavours_text {
     height: 410px;
     width: 440px;
@@ -189,6 +208,7 @@ section, header {
     height: 600px;
     width: 1200px;
     grid-column: 1/-1;
+    background-color: #f8f8f8;
 }
 
 #new_flavour {
@@ -202,7 +222,6 @@ section, header {
     width: 440px;
     grid-column: 3/6;
     text-align: left;
-    background-image: radial-gradient(#F90EFC 30%, #8A28C8);
 }
 
 #collab_info p {
@@ -316,6 +335,7 @@ section, header {
 #update_1, #update_2, #update_3 {
     height: 600px;
     width: 288px;
+    background-color: #8A28C8;
 }
 
 #update_1 {

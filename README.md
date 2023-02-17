@@ -20,7 +20,7 @@ Westrop, Sophia- Advisor
 02/14/22- Styled the desktop webpage, added content to the body, created the 404 pages
 02/15/22- Styled the desktop index some more, built out the mobile pages
 02/16/22- Added more content to the mobile webpages, added stylings to the mobile webpages, created contact form
-02/17/22- Added the desktop contact information, finished the content for the mobile and desktop pages
+02/17/22- Added the desktop contact information, created hamburger menus, finished the content for the mobile and desktop pages.
 
 ## Credits  
 

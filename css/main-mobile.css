@@ -95,17 +95,60 @@ section, header {
     margin-top: 30px;
 }
 
-.hamburger_menu {
-    display: block;
+#hamburger_menu {
+    display: flex;
     height: 5px;
     width: 110px;
-    margin-top: 23px;
+    margin-top: 62.5px;
     margin-left: 49px;
     background-color: #231f20;
+    align-content: center;
+    flex-direction: column;
 }
 
-.hamburger_menu:first-of-type {
+#hamburger_menu:first-of-type {
     margin-top: 27px;
+}
+
+#hamburger_menu input, #burger-con {
+    display: none;
+}
+
+#hamburger_menu img {
+    height: 46px;
+}
+
+#hamburger_menu input:checked ~ label span {
+    transform: rotate(90deg);
+}
+
+#hamburger_menu input:checked ~ #burger-con {
+    display: block;
+}
+
+#hamburger_menu li {
+    font-family: 'Showcard Gothic';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: #231f20 2px solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#hamburger_menu li:first-of-type {
+    padding-top: 10px;
+}
+
+#hamburger_menu li:last-of-type {
+    border-bottom: none;
+}
+
+#hamburger_menu ul {
+    background-color: #8A28C8;
+}
+
+#hamburger_menu li:hover a {
+    color: white;
 }
 
 /* 4. Visual Appeal */
@@ -123,6 +166,7 @@ section, header {
     height: 542px;
     width: 428px;
     grid-column: 1/-1;
+    background-color: #f8f8f8;
 }
 
 #flavours_slider {
@@ -155,6 +199,7 @@ section, header {
     height: 525px;
     width: 428px;
     text-align: left;
+    background-color: #f8f8f8;
 }
 
 #new_flavour {
@@ -164,11 +209,29 @@ section, header {
     margin-top: 15px;
 }
 
+#new_flavour img {
+    height: 300px;
+}
+
 #mascot {
     height: 300px;
     width: 208px;
     grid-column: 3/-1;
     margin-top: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-left: 7px;
+}
+
+#orbula_png {
+    height: 300px;
+}
+
+#red_crewmate {
+    height: 125px;
+    transform: scaleX(-1);
+    position: absolute;
 }
 
 #collab_info {
@@ -230,28 +293,25 @@ section, header {
 #update_1 {
     display: flex;
     align-content: end;
-    flex-wrap: wrap;
+    background-color: #8A28C8;
 }
 
 #update_2 {
     display: flex;
     align-content: end;
-    flex-wrap: wrap;
+    background-color: #8A28C8;
 }
 
 #update_3 {
     display: flex;
     align-content: end;
-    flex-wrap: wrap;
+    background-color: #8A28C8;
 }
 
 .updatebox {
     height: 400px;
     width: 208px;
-    grid-column: 2/4;
-    display: inline-block;
     margin-bottom: 20px;
-    grid-column: 2/4;
 }
 
 #update_1 p:first-of-type, #update_2 p:first-of-type, #update_3 p:first-of-type {
