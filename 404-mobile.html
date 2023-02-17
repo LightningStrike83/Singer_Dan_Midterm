@@ -46,7 +46,15 @@
             </div>
         </header>
 
-        <footer id="main_footer" class="grid topbottom">
+        <section id="error404">
+            <h2 class="hidden"></h2>
+            <img src="images/Orbula_Placeholder_PNG.png" alt="404 Image">
+            <p>Oh no! It's Black Hole 404! They must have done something to the web page!</p>
+            <p>Try refreshing the page or try a different link.</p>
+            <p>If you think there should be something here, please contact us!</p>
+          </section>
+
+          <footer id="main_footer" class="grid topbottom">
             <h2 class="hidden">Main Footer</h2>
             <div id="logo_footer">
                 <h3 class="hidden">Logo</h3>
@@ -232,9 +240,11 @@
             
             <div id="newsletter">
             <h3 class="hidden">Newsletter</h3>
-            <p><u>Sign Up To Stay Up To Date With Orbitz!</u></p>
-            <input id="email-news" name="email-news" type="text" placeholder="Email">
-            <input type="submit" value="Submit" id="submit">
+            <p>Sign Up To Stay Up To Date With Orbitz!</p>
+            <form id="newsletter_signup" method="post" action="404-mobile.html">
+                <input id="email-news" name="email-news" type="text" placeholder="Email">
+                <input type="submit" value="Submit" id="submit">
+            </form>
             </div>
 
             <div id="blast_off">
@@ -248,5 +258,5 @@
         </div>
 
         <script src="js/main.js"></script>
-        </body>
-        </html>
+    </body>
+</html>
