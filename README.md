@@ -19,7 +19,8 @@ Westrop, Sophia- Advisor
 02/13/22- Worked on desktop header and footer, added icons and other assets
 02/14/22- Styled the desktop webpage, added content to the body, created the 404 pages
 02/15/22- Styled the desktop index some more, built out the mobile pages
-02/16/22- Added more content to the mobile webpages
+02/16/22- Added more content to the mobile webpages, added stylings to the mobile webpages, created contact form
+02/17/22- Finished the content for 
 
 ## Credits  
 

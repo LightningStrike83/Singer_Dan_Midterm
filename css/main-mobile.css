@@ -9,11 +9,12 @@ p {
     font-family: 'Itim', Arial, sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+    color: #231f20;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #231f20;
 }
 
 .boxcolour {
@@ -100,7 +101,7 @@ section, header {
     width: 110px;
     margin-top: 23px;
     margin-left: 49px;
-    background-color: #3B3B3B;
+    background-color: #231f20;
 }
 
 .hamburger_menu:first-of-type {
@@ -266,7 +267,7 @@ section, header {
 
 /* 9. Footer */
 
-#main_footer {
+#main_footer:not(#logo_footer) {
     height: 769px;
     width: 428px;
     grid-column: 1/-1;
@@ -279,7 +280,8 @@ section, header {
 #logo_footer  {
     height: 110px;
     width: 207px;
-    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
 }
 
 #bottom_logo {
@@ -305,7 +307,7 @@ section, header {
     font-family: 'Showcard Gothic';
     font-size: 16px;
     padding-bottom: 8.5px;
-    border-bottom: black 1px solid;
+    border-bottom: #231f20 1px solid;
     margin-left: 30px;
     margin-top: 10px;
     width: 150px;
@@ -334,6 +336,12 @@ section, header {
     justify-content: center;
 }
 
+#newsletter_signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #newsletter p {
     text-align: center;
 }
@@ -348,6 +356,13 @@ section, header {
     margin-top: 20px;
     height: 35px;
     width: 70px;
+    background-color: #231f20;
+    color: white;
+}
+
+#send:hover, #submit:hover {
+    background-color: white;
+    color: #231f20;
 }
 
 .smicons {
@@ -367,14 +382,91 @@ section, header {
 }
 
 #facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
-    fill: black;
+    fill: #231f20;
 }
 
 #blast_off p {
     font-size: 16px;
 }
 
+#blast_off:hover p {
+    color: white;
+}
+
 #company_credit p {
     font-size: 20px;
     font-family: 'Showcard Gothic', Arial, sans-serif;
+}
+
+/* 10. 404 */
+
+#error404 {
+    width: 428px;
+    height: 642px;
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+#error404 img {
+    position: absolute;
+    opacity: 70%;
+    width: 428px;
+}
+
+#error404 p {
+    color: #F90EFC;
+    margin-bottom: 20px;
+    text-shadow: #8A28C8 2px 2px;
+    position: relative;
+}
+
+#error404 p:last-of-type {
+    margin-bottom: 0px;
+}
+
+/* 11. Contact Form */
+
+#contact_form {
+    height: 642px;
+    width: 428px;
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact_form p {
+    color: #F90EFC;
+    margin-bottom: 20px;
+    text-shadow: #8A28C8 2px 2px;
+    text-align: center;
+}
+
+#inquiry {
+    margin-bottom: 20px;
+}
+
+#preferred_name, #email, #subject {
+    height: 30px;
+    width: 250px;
+}
+
+#comments {
+    height: 150px;
+    width: 250px;
+}
+
+#send {
+    height: 35px;
+    width: 70px;
+    background-color: #231f20;
+    color: white;
+    border: 1px white solid;
 }
