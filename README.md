@@ -1,6 +1,6 @@
 # Orbitz Desktop and Mobile Pages 
 
-Initial pages for the Orbitz rebrand campaign
+Initial pages for the Orbitz rebrand campaign  
 
 ## Contributing  
 
@@ -11,16 +11,16 @@ Flores, Sara- Data collection assistance
 MacDonald, Spencer- Data collection assistance  
 Singer, Dan- Author  
 Stredder, Emma- Data collection assistance  
-Westrop, Sophia- Advisor
+Westrop, Sophia- Advisor  
 
 ## History
 
 02/12/22- Repo created, initial files added  
-02/13/22- Worked on desktop header and footer, added icons and other assets
-02/14/22- Styled the desktop webpage, added content to the body, created the 404 pages
-02/15/22- Styled the desktop index some more, built out the mobile pages
-02/16/22- Added more content to the mobile webpages, added stylings to the mobile webpages, created contact form
-02/17/22- Added the desktop contact information, created hamburger menus, finished the content for the mobile and desktop pages.
+02/13/22- Worked on desktop header and footer, added icons and other assets  
+02/14/22- Styled the desktop webpage, added content to the body, created the 404 pages  
+02/15/22- Styled the desktop index some more, built out the mobile pages  
+02/16/22- Added more content to the mobile webpages, added stylings to the mobile webpages, created contact form  
+02/17/22- Added the desktop contact information, created hamburger menus, finished the content for the mobile and desktop pages.  
 
 ## Credits  
 
@@ -33,3 +33,5 @@ Among Us Crewmate- https://pixabay.com/illustrations/among-us-icon-crewmate-impo
 ## License  
 
 MIT  
+
+![She seems sus](images/Meme.jpg)  
