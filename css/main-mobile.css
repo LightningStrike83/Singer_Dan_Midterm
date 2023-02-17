@@ -176,6 +176,28 @@ section, header {
     grid-column: 1/-1;
 }
 
+#flavours_slider img {
+    position: absolute;
+}
+
+#arrows {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25%;
+    flex-wrap: wrap;
+}
+
+#arrows p {
+    font-size: 48px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+}
+
 #flavours_text {
     height: 185px;
     width: 428px;
@@ -256,14 +278,44 @@ section, header {
     color: white;
 }
 
+/* 7. Information */
+
 #information {
     height: 542px;
     width: 428px;
     grid-column: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#planets {
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+#collectibles_text {
+    text-align: center;
+    color: white;
+    text-shadow: #231f20 2px 2px;
+    position: relative;
+    margin-top: 50%;
+}
+
+#collectibles_text span {
+    color: white;
+}
+
+#collectibles_text span:hover {
+    color: #231f20;
+    text-shadow: white 2px 2px;
 }
 
 #slider_indicator {
     grid-column: 2/4;
+    position: relative;
+    margin-top: -65%;
+    margin-left: 25%;
 }
 
 .circle {
@@ -273,6 +325,7 @@ section, header {
     display: inline-block;
     margin-top: 496px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .circle:first-of-type {
