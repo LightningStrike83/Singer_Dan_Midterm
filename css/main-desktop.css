@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #231f20;
 }
 
 p {
@@ -14,10 +14,11 @@ p {
     font-family: 'Itim', Arial, sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+    color: #231f20;
 }
 
 a:visited {
-    color: black;
+    color: #231f20;
 }
 
 .boxcolour {
@@ -124,7 +125,7 @@ section, header {
 }
 
 #main_nav_1 ul li a:hover, #main_nav_2 ul li a:hover {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #231f20;
     color: white;
 }
 
@@ -215,7 +216,7 @@ section, header {
 
 #imposter_flavour {
     color: #FF0705;
-    text-shadow: black 2px 2px;
+    text-shadow: #231f20 2px 2px;
 }
 
 #innersloth:hover {
@@ -261,7 +262,7 @@ section, header {
 #collectibles_text {
     text-align: center;
     color: white;
-    text-shadow: black 2px 2px;
+    text-shadow: #231f20 2px 2px;
     position: relative;
 }
 
@@ -270,7 +271,7 @@ section, header {
 }
 
 #collectibles_text span:hover {
-    color: black;
+    color: #231f20;
     text-shadow: white 2px 2px;
 }
 
@@ -370,7 +371,7 @@ section, header {
     font-family: 'Showcard Gothic';
     font-size: 16px;
     padding-bottom: 13.5px;
-    border-bottom: black 1px solid;
+    border-bottom: #231f20 1px solid;
     margin-left: 30px;
     margin-top: 10px;
     width: 150px;
@@ -378,7 +379,7 @@ section, header {
 
 #desktop-bottom-nav-1 {
     padding-right: 25px;
-    border-right: 1px solid black;
+    border-right: 1px solid #231f20;
 }
 
 #desktop-bottom-nav-1 li:last-of-type, #desktop-bottom-nav-2 li:last-of-type {
@@ -413,6 +414,13 @@ section, header {
     justify-content: center;
 }
 
+#newsletter_signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 #newsletter p {
     text-align: center;
 }
@@ -427,6 +435,13 @@ section, header {
     margin-top: 20px;
     height: 35px;
     width: 70px;
+    background-color: #231f20;
+    color: white;
+}
+
+#send:hover, #submit:hover {
+    background-color: white;
+    color: #231f20;
 }
 
 .smicons {
@@ -444,8 +459,16 @@ section, header {
     margin-right: 17px;
 }
 
+#facebook_icon .cls-2-fb, #twitter_icon .cls-2-twt, #instagram_logo .cls-1-ins, #youtube_icon .cls-2-yt, #reddit_icon .cls-2-reddit, #tumblr_icon .cls-2-tbr {
+    fill: #231f20;
+}
+
+#facebook_icon:hover .cls-1-fb, #twitter_icon:hover .cls-1-twt, #instagram_logo:hover .cls-2-ins, #youtube_icon:hover .cls-1-yt, #reddit_icon:hover .cls-1-reddit, #tumblr_icon:hover .cls-1-tbr{
+    fill: #231f20;
+}
+
 #facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
-    fill: black;
+    fill: #fff;
 }
 
 #blast_off {
@@ -456,6 +479,10 @@ section, header {
 
 #blast_off p {
     font-size: 16px;
+}
+
+#blast_off:hover p {
+    color: white;
 }
 
 #company_credit {
@@ -500,11 +527,42 @@ section, header {
     margin-bottom: 0px;
 }
 
-#contact-form {
-    height: 642px;
-    width: 428px;
+#contact_form {
+    grid-column: 3/7;
     padding-top: 170px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contact_form p {
+    color: #F90EFC;
+    margin-bottom: 20px;
+    text-shadow: #8A28C8 2px 2px;
+    text-align: center;
+}
+
+#inquiry {
+    margin-bottom: 20px;
+}
+
+#preferred_name, #email, #subject {
+    height: 30px;
+    width: 450px;
+}
+
+#comments {
+    height: 150px;
+    width: 450px;
+}
+
+#send {
+    height: 35px;
+    width: 70px;
+    background-color: #231f20;
+    color: white;
+    border: 1px white solid;
 }

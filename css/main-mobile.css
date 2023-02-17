@@ -381,8 +381,16 @@ section, header {
     margin-right: 27px;
 }
 
-#facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
+#facebook_icon .cls-2-fb, #twitter_icon .cls-2-twt, #instagram_logo .cls-1-ins, #youtube_icon .cls-2-yt, #reddit_icon .cls-2-reddit, #tumblr_icon .cls-2-tbr {
     fill: #231f20;
+}
+
+#facebook_icon:hover .cls-1-fb, #twitter_icon:hover .cls-1-twt, #instagram_logo:hover .cls-2-ins, #youtube_icon:hover .cls-1-yt, #reddit_icon:hover .cls-1-reddit, #tumblr_icon:hover .cls-1-tbr{
+    fill: #231f20;
+}
+
+#facebook_icon:hover .cls-2-fb, #twitter_icon:hover .cls-2-twt, #instagram_logo:hover .cls-1-ins, #youtube_icon:hover .cls-2-yt, #reddit_icon:hover .cls-2-reddit, #tumblr_icon:hover .cls-2-tbr{
+    fill: #fff;
 }
 
 #blast_off p {
